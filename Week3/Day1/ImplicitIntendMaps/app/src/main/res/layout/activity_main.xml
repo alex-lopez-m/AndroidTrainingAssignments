@@ -42,36 +42,54 @@
         android:text="NAVIGATION"
         android:layout_alignParentStart="true" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_below="@+id/textView"
+    <Button
+        android:id="@+id/bt_navigate_by_bicycle"
+        android:layout_below="@+id/bt_navigation"
+        android:layout_alignRight="@+id/bt_navigation"
+        android:layout_alignEnd="@+id/bt_navigation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="NAVIGATE BY BICYCLE"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/et_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignRight="@+id/bt_navigate_by_bicycle"
+        android:layout_alignEnd="@+id/bt_navigate_by_bicycle" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Source: "
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/bt_navigate_by_bicycle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_below="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Destination: "
+        android:layout_below="@+id/et_source"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <EditText
-        android:id="@+id/editText2"
-        android:layout_below="@+id/textView2"
-        android:layout_alignEnd="@+id/editText"
+        android:id="@+id/et_destination"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/et_source"
+        android:layout_alignEnd="@+id/et_source" />
 
 </RelativeLayout>
