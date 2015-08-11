@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
     public static RecyclerView.LayoutManager layoutManager;
     public static RecyclerView.Adapter adapter;
 
-    private static final String URL_JSON_ARRAY_CONTACT = "http://fast-gorge.herokuapp.com/contacts"; //"http://api.androidhive.info/contacts";
+    private static final String URL_JSON_ARRAY_CONTACT = "http://fast-gorge.herokuapp.com/contacts";
 
     private static final String TAG_CONTACTS = "contacts";
     private static final String TAG_ID = "id";

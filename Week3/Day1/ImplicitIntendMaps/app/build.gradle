@@ -5,8 +5,8 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.alexcompany.contacts.contacts"
-        minSdkVersion 15
+        applicationId "com.alexcompany.contacts.implicitintendmaps"
+        minSdkVersion 22
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -21,9 +21,4 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.1.1'
-    compile 'com.android.support:cardview-v7:22.1.1'
-    compile 'com.android.support:recyclerview-v7:22.1.1'
-    compile 'com.mcxiaoke.volley:library:1.0.18'
-    compile 'com.squareup.picasso:picasso:2.5.2'
 }
