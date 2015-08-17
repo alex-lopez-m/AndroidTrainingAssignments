@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Navigation View</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_item_1">Home</string>
+    <string name="navigation_item_2">Events</string>
+    <string name="starred_string">Starred</string>
+    <string name="inbox_string">New In: Clothing</string>
+    <string name="sent_mail_string">New In: Shoes</string>
+    <string name="draft_string">New In: Designer</string>
+    <string name="subheader">50% Off Autumn</string>
+    <string name="trash_string">Accessories</string>
+    <string name="all_mail_string">Bags and Purses</string>
+    <string name="spam_string">Beauty</string>
+    <string name="closeDrawer">Coats and Jackets</string>
+    <string name="openDrawer">Curve</string>
+</resources>
